@@ -44,7 +44,9 @@ def normalize_version(value: Any) -> tuple[int | str, ...]:
     return tuple(parts)
 
 
-def _split_normalized_version(version: tuple[int | str, ...]) -> tuple[tuple[int, ...], str | None, int]:
+def _split_normalized_version(
+    version: tuple[int | str, ...],
+) -> tuple[tuple[int, ...], str | None, int]:
     core: list[int] = []
     suffix: str | None = None
     suffix_number = 0
