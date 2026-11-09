@@ -60,15 +60,20 @@ flowchart LR
 
 This pipeline keeps the system simple, transparent, and easy to extend with more data sources over time.
 
-OpenPulse follows a simple intelligence pipeline:
+## CI workflow diagram
 
-- Collectors fetch public data
-- Validators filter invalid records
-- Normalizers standardize fields and timestamps
-- Deduplicators remove repeated entries
-- Change detection identifies new and updated records
-- Storage persists the final JSON data
-- Report generation creates a readable daily summary
+```mermaid
+flowchart TD
+    A[Push / Pull Request] --> B[Setup Python]
+    B --> C[Install dependencies]
+    C --> D[Run Ruff lint]
+    D --> E[Run pytest]
+    E --> F{All checks passed?}
+    F -- Yes --> G[Merge / Deploy ready]
+    F -- No --> H[Fail CI and block merge]
+```
+
+The CI pipeline enforces code quality and regression safety before changes are merged.
 
 ## Local setup
 
