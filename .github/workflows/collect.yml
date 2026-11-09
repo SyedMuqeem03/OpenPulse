@@ -37,6 +37,52 @@ jobs:
         run: |
           python -m openpulse.main
 
+      - name: Summarize run and alert on issues
+        if: always()
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          summary_path = Path("reports/latest.json")
+          summary = {}
+          if summary_path.exists():
+              try:
+                  summary = json.loads(summary_path.read_text(encoding="utf-8"))
+              except json.JSONDecodeError:
+                  summary = {}
+
+          failed = int(summary.get("failed_collectors", 0) or 0)
+          new_total = int(summary.get("new_total", 0) or 0)
+          updated_total = int(summary.get("updated_total", 0) or 0)
+          failed_names = summary.get("failed_collector_names", []) or []
+
+          if failed > 0:
+              print(f"::warning::{failed} collector(s) failed: {', '.join(failed_names) if failed_names else 'unknown'}")
+          else:
+              print("::notice::All collectors completed successfully.")
+
+          if new_total or updated_total:
+              print(f"Detected {new_total} new and {updated_total} updated records.")
+          else:
+              print("::notice::No meaningful data changes were detected in this run.")
+
+          summary_lines = [
+              "## OpenPulse run summary",
+              "",
+              f"- New records: {new_total}",
+              f"- Updated records: {updated_total}",
+              f"- Failed collectors: {failed}",
+          ]
+          if failed_names:
+              summary_lines.append(f"- Failed collector names: {', '.join(failed_names)}")
+
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as fh:
+              fh.write("\n".join(summary_lines) + "\n")
+          PY
+
       - name: Commit and push changes
         shell: bash
         run: |
