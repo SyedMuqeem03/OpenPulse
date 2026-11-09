@@ -1,0 +1,50 @@
+[
+  {
+    "category": "devops",
+    "collected_at": "2026-11-09T13:28:31.023047+00:00",
+    "created_at": "2026-11-07T00:59:31.548Z",
+    "first_seen_at": "2026-11-09T07:26:20.644390+00:00",
+    "id": "cloudflare:c60k3g4vsoc1",
+    "impact": "minor",
+    "last_updated_at": "2026-11-09T13:28:34.972544+00:00",
+    "name": "Spectrum Availability Issue in Phoenix",
+    "provider": "cloudflare",
+    "resolved_at": null,
+    "source": "STATUS_API",
+    "source_url": "https://www.cloudflarestatus.com/incidents/c60k3g4vsoc1",
+    "status": "monitoring",
+    "updated_at": "2026-11-07T02:51:59.805Z"
+  },
+  {
+    "category": "devops",
+    "collected_at": "2026-11-09T13:28:31.023047+00:00",
+    "created_at": "2026-11-06T17:47:15.545Z",
+    "first_seen_at": "2026-11-09T07:26:20.644390+00:00",
+    "id": "cloudflare:wp49bp8bqo6c",
+    "impact": "minor",
+    "last_updated_at": "2026-11-09T13:28:34.972544+00:00",
+    "name": "Fedramp Customers have Delayed Purges",
+    "provider": "cloudflare",
+    "resolved_at": null,
+    "source": "STATUS_API",
+    "source_url": "https://www.cloudflarestatus.com/incidents/wp49bp8bqo6c",
+    "status": "identified",
+    "updated_at": "2026-11-06T17:59:13.680Z"
+  },
+  {
+    "category": "devops",
+    "collected_at": "2026-11-09T07:47:18.690978+00:00",
+    "created_at": "2026-11-09T05:59:07.851Z",
+    "first_seen_at": "2026-11-09T07:26:20.644390+00:00",
+    "id": "github:c9px7cw2ghrs",
+    "impact": "minor",
+    "last_updated_at": "2026-11-09T07:47:19.500372+00:00",
+    "name": "Increased timeouts due to surge in anonymous users",
+    "provider": "github",
+    "resolved_at": null,
+    "source": "STATUS_API",
+    "source_url": "https://stspg.io/jztczfplj6yb",
+    "status": "investigating",
+    "updated_at": "2026-11-09T07:43:15.426Z"
+  }
+]
