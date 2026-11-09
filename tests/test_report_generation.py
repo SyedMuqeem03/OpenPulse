@@ -30,6 +30,35 @@ def test_summarize_findings_prioritizes_critical_security_records() -> None:
     assert findings["status_incidents"][0]["provider"] == "github"
 
 
+def test_summarize_findings_filters_legacy_and_incomplete_security_records() -> None:
+    findings = summarize_findings(
+        [
+            {
+                "id": "CVE-2026-1234",
+                "source": "NVD",
+                "severity": "HIGH",
+                "product": "openssl",
+                "description": "Current high-severity issue",
+                "published_at": "2026-01-10T00:00:00Z",
+                "source_url": "https://example.com/cve-current",
+            },
+            {
+                "id": "CVE-1999-0001",
+                "source": "NVD",
+                "severity": "CRITICAL",
+                "product": None,
+                "description": "Very old issue",
+                "published_at": "1999-01-01T00:00:00Z",
+                "source_url": "https://example.com/cve-old",
+            },
+        ],
+        [],
+        [],
+    )
+
+    assert [item["id"] for item in findings["critical_security"]] == ["CVE-2026-1234"]
+
+
 def test_build_markdown_report_includes_top_findings() -> None:
     report = build_markdown_report(
         {

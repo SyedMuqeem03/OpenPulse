@@ -7,6 +7,44 @@ from openpulse.analyzer.releases import classify_release_significance
 from openpulse.analyzer.security import classify_priority, normalize_severity
 
 
+def _published_year(record: dict) -> int | None:
+    published_at = record.get("published_at")
+    if not published_at:
+        return None
+
+    text = str(published_at).strip()
+    if not text:
+        return None
+
+    try:
+        if text.endswith("Z"):
+            text = text[:-1] + "+00:00"
+        return datetime.fromisoformat(text).year
+    except ValueError:
+        return None
+
+
+def _is_actionable_security_record(record: dict) -> bool:
+    if not isinstance(record, dict):
+        return False
+
+    identifier = str(record.get("id") or "").strip()
+    if not identifier:
+        return False
+
+    source = str(record.get("source") or "").upper()
+    product = str(record.get("product") or record.get("vendor") or "").strip()
+
+    published_year = _published_year(record)
+    if published_year is not None and published_year < 2019 and source != "CISA_KEV":
+        return False
+
+    if not product and source != "CISA_KEV":
+        return False
+
+    return True
+
+
 def summarize_findings(
     security_records: list[dict] | None = None,
     devops_records: list[dict] | None = None,
@@ -18,6 +56,9 @@ def summarize_findings(
 
     critical_security: list[dict] = []
     for record in security_records:
+        if not _is_actionable_security_record(record):
+            continue
+
         priority = classify_priority(record)
         if priority in {"CRITICAL", "HIGH"}:
             critical_security.append(
