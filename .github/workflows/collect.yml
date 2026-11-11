@@ -72,6 +72,8 @@ jobs:
           summary_lines = [
               "## OpenPulse run summary",
               "",
+              f"- Trigger event: {os.environ.get('GITHUB_EVENT_NAME', 'unknown')}",
+              f"- Run number: {os.environ.get('GITHUB_RUN_NUMBER', 'unknown')}",
               f"- New records: {new_total}",
               f"- Updated records: {updated_total}",
               f"- Failed collectors: {failed}",
@@ -111,6 +113,12 @@ jobs:
 
           if [ "${OPENPULSE_SHOULD_COMMIT}" != "true" ]; then
             echo "No meaningful changes to commit."
+            {
+              echo ""
+              echo "## Commit decision"
+              echo "- Decision: skipped"
+              echo "- Reason: commit policy returned false (no meaningful changes)"
+            } >> "$GITHUB_STEP_SUMMARY"
             exit 0
           fi
 
@@ -118,9 +126,21 @@ jobs:
 
           if git diff --cached --quiet; then
             echo "No staged changes to commit."
+            {
+              echo ""
+              echo "## Commit decision"
+              echo "- Decision: skipped"
+              echo "- Reason: no staged file changes after data/report update"
+            } >> "$GITHUB_STEP_SUMMARY"
             exit 0
           fi
 
           git commit -m "${OPENPULSE_COMMIT_MESSAGE}"
           git pull --rebase origin "${GITHUB_REF_NAME}" || true
           git push
+          {
+            echo ""
+            echo "## Commit decision"
+            echo "- Decision: pushed"
+            echo "- Message: ${OPENPULSE_COMMIT_MESSAGE}"
+          } >> "$GITHUB_STEP_SUMMARY"
