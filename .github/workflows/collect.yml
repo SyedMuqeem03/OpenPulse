@@ -88,25 +88,41 @@ jobs:
       - name: Commit and push changes
         shell: bash
         run: |
-          python - <<'PY'
+          OPENPULSE_SHOULD_COMMIT=$(python - <<'PY'
           import json
-          import os
           from pathlib import Path
 
-          from openpulse.automation import build_commit_message, should_commit
+          from openpulse.automation import should_commit
 
           summary_path = Path("reports/latest.json")
           summary = {}
           if summary_path.exists():
-              try:
-                  summary = json.loads(summary_path.read_text(encoding="utf-8"))
-              except json.JSONDecodeError:
-                  summary = {}
+            try:
+              summary = json.loads(summary_path.read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
+              summary = {}
 
-          with open(os.environ["GITHUB_ENV"], "a", encoding="utf-8") as fh:
-              fh.write(f"OPENPULSE_SHOULD_COMMIT={str(should_commit(summary)).lower()}\n")
-              fh.write(f"OPENPULSE_COMMIT_MESSAGE={build_commit_message(summary)}\n")
+          print("true" if should_commit(summary) else "false")
           PY
+          )
+
+          OPENPULSE_COMMIT_MESSAGE=$(python - <<'PY'
+          import json
+          from pathlib import Path
+
+          from openpulse.automation import build_commit_message
+
+          summary_path = Path("reports/latest.json")
+          summary = {}
+          if summary_path.exists():
+            try:
+              summary = json.loads(summary_path.read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
+              summary = {}
+
+          print(build_commit_message(summary))
+          PY
+          )
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
