@@ -1,15 +1,15 @@
 # OpenPulse Daily Intelligence Report
 
-Date: 2026-11-11
+Date: 2026-11-12
 
 ## Summary
 
-- New security records: 10
-- Updated security records: 2091
-- New DevOps records: 7
-- Updated DevOps records: 23
-- New status records: 2
-- Updated status records: 1
+- New security records: 0
+- Updated security records: 2101
+- New DevOps records: 2
+- Updated DevOps records: 28
+- New status records: 0
+- Updated status records: 3
 
 ## Critical Security Findings
 
@@ -94,7 +94,7 @@ Date: 2026-11-11
 
 - Provider: cloudflare
   Status: identified
-  Name: Replicate Input Upload Issue
+  Name: Replicate Model Registry Unavailable
   Source: https://www.cloudflarestatus.com/incidents/yu63fhh2peb7
 
 - Provider: github
@@ -107,5 +107,5 @@ Date: 2026-11-11
 - Successful collectors: 5
 - Failed collectors: 0
 - Duplicates removed: 0
-- New records stored: 19
-- Updated records stored: 2115
+- New records stored: 2
+- Updated records stored: 2132
