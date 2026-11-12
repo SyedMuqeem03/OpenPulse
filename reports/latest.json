@@ -1,16 +1,16 @@
 {
-  "commit_message": "feat: add 2 release updates, 2132 updated records to daily intelligence",
+  "commit_message": "chore: refresh daily intelligence",
   "duplicates_removed": 0,
   "failed_collector_names": [],
   "failed_collectors": 0,
-  "new_devops": 2,
+  "new_devops": 0,
   "new_security": 0,
-  "new_status": 0,
-  "new_total": 2,
+  "new_status": 1,
+  "new_total": 1,
   "should_commit": true,
   "successful_collectors": 5,
-  "updated_devops": 28,
+  "updated_devops": 30,
   "updated_security": 2101,
   "updated_status": 3,
-  "updated_total": 2132
+  "updated_total": 2134
 }

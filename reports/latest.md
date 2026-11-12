@@ -6,9 +6,9 @@ Date: 2026-11-12
 
 - New security records: 0
 - Updated security records: 2101
-- New DevOps records: 2
-- Updated DevOps records: 28
-- New status records: 0
+- New DevOps records: 0
+- Updated DevOps records: 30
+- New status records: 1
 - Updated status records: 3
 
 ## Critical Security Findings
@@ -83,6 +83,11 @@ Date: 2026-11-12
   Source: https://www.cloudflarestatus.com/incidents/0ocqieaifg7h
 
 - Provider: cloudflare
+  Status: investigating
+  Name: Replicate Issue
+  Source: https://www.cloudflarestatus.com/incidents/1na2mbfshgdh
+
+- Provider: cloudflare
   Status: monitoring
   Name: Spectrum Availability Issue in Phoenix
   Source: https://www.cloudflarestatus.com/incidents/c60k3g4vsoc1
@@ -97,15 +102,10 @@ Date: 2026-11-12
   Name: Replicate Model Registry Unavailable
   Source: https://www.cloudflarestatus.com/incidents/yu63fhh2peb7
 
-- Provider: github
-  Status: investigating
-  Name: Increased timeouts due to surge in anonymous users
-  Source: https://stspg.io/jztczfplj6yb
-
 ## Collection Summary
 
 - Successful collectors: 5
 - Failed collectors: 0
 - Duplicates removed: 0
-- New records stored: 2
-- Updated records stored: 2132
+- New records stored: 1
+- Updated records stored: 2134
