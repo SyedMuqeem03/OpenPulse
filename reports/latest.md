@@ -6,9 +6,9 @@ Date: 2026-11-12
 
 - New security records: 0
 - Updated security records: 2101
-- New DevOps records: 0
-- Updated DevOps records: 30
-- New status records: 0
+- New DevOps records: 1
+- Updated DevOps records: 29
+- New status records: 1
 - Updated status records: 2
 
 ## Critical Security Findings
@@ -89,6 +89,11 @@ Date: 2026-11-12
 
 - Provider: cloudflare
   Status: monitoring
+  Name: Durable Objects increased error rates in North America
+  Source: https://www.cloudflarestatus.com/incidents/9zxr2bkqoct7
+
+- Provider: cloudflare
+  Status: monitoring
   Name: Spectrum Availability Issue in Phoenix
   Source: https://www.cloudflarestatus.com/incidents/c60k3g4vsoc1
 
@@ -97,15 +102,10 @@ Date: 2026-11-12
   Name: Fedramp Customers have Delayed Purges
   Source: https://www.cloudflarestatus.com/incidents/wp49bp8bqo6c
 
-- Provider: cloudflare
-  Status: identified
-  Name: Replicate Model Registry Unavailable
-  Source: https://www.cloudflarestatus.com/incidents/yu63fhh2peb7
-
 ## Collection Summary
 
 - Successful collectors: 5
 - Failed collectors: 0
 - Duplicates removed: 0
-- New records stored: 0
-- Updated records stored: 2133
+- New records stored: 2
+- Updated records stored: 2132

@@ -1,12 +1,12 @@
 [
   {
     "category": "devops",
-    "collected_at": "2026-11-12T17:52:41.305486+00:00",
+    "collected_at": "2026-11-12T23:08:39.509728+00:00",
     "created_at": "2026-11-10T01:53:58.905Z",
     "first_seen_at": "2026-11-11T11:42:47.514994+00:00",
     "id": "cloudflare:0ocqieaifg7h",
     "impact": "minor",
-    "last_updated_at": "2026-11-12T17:52:41.343203+00:00",
+    "last_updated_at": "2026-11-12T23:08:39.540945+00:00",
     "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
     "provider": "cloudflare",
     "resolved_at": null,
@@ -30,6 +30,22 @@
     "source_url": "https://www.cloudflarestatus.com/incidents/1na2mbfshgdh",
     "status": "investigating",
     "updated_at": "2026-11-12T08:30:37.992Z"
+  },
+  {
+    "category": "devops",
+    "collected_at": "2026-11-12T23:08:39.509728+00:00",
+    "created_at": "2026-11-12T22:39:40.553Z",
+    "first_seen_at": "2026-11-12T23:08:39.540945+00:00",
+    "id": "cloudflare:9zxr2bkqoct7",
+    "impact": "minor",
+    "last_updated_at": "2026-11-12T23:08:39.540945+00:00",
+    "name": "Durable Objects increased error rates in North America",
+    "provider": "cloudflare",
+    "resolved_at": null,
+    "source": "STATUS_API",
+    "source_url": "https://www.cloudflarestatus.com/incidents/9zxr2bkqoct7",
+    "status": "monitoring",
+    "updated_at": "2026-11-12T22:40:03.086Z"
   },
   {
     "category": "devops",
@@ -65,19 +81,19 @@
   },
   {
     "category": "devops",
-    "collected_at": "2026-11-12T17:52:41.305486+00:00",
+    "collected_at": "2026-11-12T23:08:39.509728+00:00",
     "created_at": "2026-11-11T04:33:19.016Z",
     "first_seen_at": "2026-11-11T11:42:47.514994+00:00",
     "id": "cloudflare:yu63fhh2peb7",
     "impact": "minor",
-    "last_updated_at": "2026-11-12T17:52:41.343203+00:00",
+    "last_updated_at": "2026-11-12T23:08:39.540945+00:00",
     "name": "Replicate Model Registry Unavailable",
     "provider": "cloudflare",
     "resolved_at": null,
     "source": "STATUS_API",
     "source_url": "https://www.cloudflarestatus.com/incidents/yu63fhh2peb7",
-    "status": "identified",
-    "updated_at": "2026-11-11T23:51:40.658Z"
+    "status": "monitoring",
+    "updated_at": "2026-11-12T22:55:17.816Z"
   },
   {
     "category": "devops",
