@@ -8,8 +8,8 @@ Date: 2026-11-12
 - Updated security records: 2101
 - New DevOps records: 0
 - Updated DevOps records: 30
-- New status records: 1
-- Updated status records: 3
+- New status records: 0
+- Updated status records: 2
 
 ## Critical Security Findings
 
@@ -107,5 +107,5 @@ Date: 2026-11-12
 - Successful collectors: 5
 - Failed collectors: 0
 - Duplicates removed: 0
-- New records stored: 1
-- Updated records stored: 2134
+- New records stored: 0
+- Updated records stored: 2133
