@@ -4,11 +4,11 @@ Date: 2026-11-13
 
 ## Summary
 
-- New security records: 0
+- New security records: 2
 - Updated security records: 2101
-- New DevOps records: 0
-- Updated DevOps records: 30
-- New status records: 0
+- New DevOps records: 2
+- Updated DevOps records: 28
+- New status records: 3
 - Updated status records: 1
 
 ## Critical Security Findings
@@ -98,14 +98,14 @@ Date: 2026-11-13
   Source: https://www.cloudflarestatus.com/incidents/c60k3g4vsoc1
 
 - Provider: cloudflare
-  Status: identified
-  Name: Fedramp Customers have Delayed Purges
-  Source: https://www.cloudflarestatus.com/incidents/wp49bp8bqo6c
+  Status: monitoring
+  Name: Cloudflare is seeing an issue with Workers API availability
+  Source: https://www.cloudflarestatus.com/incidents/e7ktq32gphhe
 
 ## Collection Summary
 
 - Successful collectors: 5
 - Failed collectors: 0
 - Duplicates removed: 0
-- New records stored: 0
-- Updated records stored: 2132
+- New records stored: 7
+- Updated records stored: 2130
