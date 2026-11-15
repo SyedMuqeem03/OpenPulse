@@ -1,19 +1,16 @@
 {
   "commit_message": "chore: refresh daily intelligence",
   "duplicates_removed": 0,
-  "failed_collector_names": [
-    "NVD",
-    "GITHUB_RELEASES"
-  ],
-  "failed_collectors": 2,
+  "failed_collector_names": [],
+  "failed_collectors": 0,
   "new_devops": 0,
   "new_security": 0,
   "new_status": 0,
   "new_total": 0,
   "should_commit": true,
-  "successful_collectors": 3,
-  "updated_devops": 0,
-  "updated_security": 1903,
+  "successful_collectors": 5,
+  "updated_devops": 30,
+  "updated_security": 2103,
   "updated_status": 1,
-  "updated_total": 1904
+  "updated_total": 2134
 }
