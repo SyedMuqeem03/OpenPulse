@@ -1,14 +1,14 @@
 # OpenPulse Daily Intelligence Report
 
-Date: 2026-11-16
+Date: 2026-11-17
 
 ## Summary
 
 - New security records: 0
 - Updated security records: 2103
-- New DevOps records: 1
-- Updated DevOps records: 29
-- New status records: 0
+- New DevOps records: 0
+- Updated DevOps records: 30
+- New status records: 1
 - Updated status records: 1
 
 ## Critical Security Findings
@@ -89,6 +89,11 @@ Date: 2026-11-16
 
 - Provider: cloudflare
   Status: monitoring
+  Name: Network Performance Issues in Ashburn, US
+  Source: https://www.cloudflarestatus.com/incidents/3l6q71x7a37k
+
+- Provider: cloudflare
+  Status: monitoring
   Name: Durable Objects increased error rates in North America
   Source: https://www.cloudflarestatus.com/incidents/9zxr2bkqoct7
 
@@ -97,15 +102,10 @@ Date: 2026-11-16
   Name: Spectrum Availability Issue in Phoenix
   Source: https://www.cloudflarestatus.com/incidents/c60k3g4vsoc1
 
-- Provider: cloudflare
-  Status: monitoring
-  Name: Cloudflare is seeing an issue with Workers API availability
-  Source: https://www.cloudflarestatus.com/incidents/e7ktq32gphhe
-
 ## Collection Summary
 
 - Successful collectors: 5
 - Failed collectors: 0
 - Duplicates removed: 0
 - New records stored: 1
-- Updated records stored: 2133
+- Updated records stored: 2134
