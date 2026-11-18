@@ -1,15 +1,15 @@
 # OpenPulse Daily Intelligence Report
 
-Date: 2026-11-17
+Date: 2026-11-18
 
 ## Summary
 
-- New security records: 1
-- Updated security records: 2103
-- New DevOps records: 1
-- Updated DevOps records: 29
+- New security records: 0
+- Updated security records: 2104
+- New DevOps records: 0
+- Updated DevOps records: 30
 - New status records: 1
-- Updated status records: 1
+- Updated status records: 2
 
 ## Critical Security Findings
 
@@ -79,6 +79,11 @@ Date: 2026-11-17
 
 - Provider: cloudflare
   Status: identified
+  Name: Cloudflare Access Issue
+  Source: https://www.cloudflarestatus.com/incidents/0jozucwnpzy0
+
+- Provider: cloudflare
+  Status: identified
   Name: Changes to Cloudflare Workers are not producing Event Subscription events
   Source: https://www.cloudflarestatus.com/incidents/0ocqieaifg7h
 
@@ -97,15 +102,10 @@ Date: 2026-11-17
   Name: Durable Objects increased error rates in North America
   Source: https://www.cloudflarestatus.com/incidents/9zxr2bkqoct7
 
-- Provider: cloudflare
-  Status: monitoring
-  Name: Spectrum Availability Issue in Phoenix
-  Source: https://www.cloudflarestatus.com/incidents/c60k3g4vsoc1
-
 ## Collection Summary
 
 - Successful collectors: 5
 - Failed collectors: 0
 - Duplicates removed: 0
-- New records stored: 3
-- Updated records stored: 2133
+- New records stored: 1
+- Updated records stored: 2136

@@ -1,12 +1,28 @@
 [
   {
     "category": "devops",
-    "collected_at": "2026-11-17T19:33:15.910972+00:00",
+    "collected_at": "2026-11-18T02:02:05.006001+00:00",
+    "created_at": "2026-11-18T01:10:14.795Z",
+    "first_seen_at": "2026-11-18T02:02:05.033922+00:00",
+    "id": "cloudflare:0jozucwnpzy0",
+    "impact": "minor",
+    "last_updated_at": "2026-11-18T02:02:05.033922+00:00",
+    "name": "Cloudflare Access Issue",
+    "provider": "cloudflare",
+    "resolved_at": null,
+    "source": "STATUS_API",
+    "source_url": "https://www.cloudflarestatus.com/incidents/0jozucwnpzy0",
+    "status": "identified",
+    "updated_at": "2026-11-18T01:22:09.872Z"
+  },
+  {
+    "category": "devops",
+    "collected_at": "2026-11-18T02:02:05.006001+00:00",
     "created_at": "2026-11-10T01:53:58.905Z",
     "first_seen_at": "2026-11-11T11:42:47.514994+00:00",
     "id": "cloudflare:0ocqieaifg7h",
     "impact": "minor",
-    "last_updated_at": "2026-11-17T19:33:15.950971+00:00",
+    "last_updated_at": "2026-11-18T02:02:05.033922+00:00",
     "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
     "provider": "cloudflare",
     "resolved_at": null,
@@ -113,19 +129,19 @@
   },
   {
     "category": "devops",
-    "collected_at": "2026-11-17T19:33:15.910972+00:00",
+    "collected_at": "2026-11-18T02:02:05.006001+00:00",
     "created_at": "2026-11-17T15:02:47.698Z",
     "first_seen_at": "2026-11-17T19:33:15.950971+00:00",
     "id": "cloudflare:sv9tnfpjiojf",
     "impact": "minor",
-    "last_updated_at": "2026-11-17T19:33:15.950971+00:00",
+    "last_updated_at": "2026-11-18T02:02:05.033922+00:00",
     "name": "Errors and stalled predictions on some models",
     "provider": "cloudflare",
     "resolved_at": null,
     "source": "STATUS_API",
     "source_url": "https://www.cloudflarestatus.com/incidents/sv9tnfpjiojf",
     "status": "identified",
-    "updated_at": "2026-11-17T16:32:13.057Z"
+    "updated_at": "2026-11-17T21:53:51.025Z"
   },
   {
     "category": "devops",
