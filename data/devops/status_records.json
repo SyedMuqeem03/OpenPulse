@@ -17,12 +17,12 @@
   },
   {
     "category": "devops",
-    "collected_at": "2026-11-19T09:47:25.080631+00:00",
+    "collected_at": "2026-11-19T18:48:35.661545+00:00",
     "created_at": "2026-11-10T01:53:58.905Z",
     "first_seen_at": "2026-11-11T11:42:47.514994+00:00",
     "id": "cloudflare:0ocqieaifg7h",
     "impact": "minor",
-    "last_updated_at": "2026-11-19T09:47:25.124897+00:00",
+    "last_updated_at": "2026-11-19T18:48:35.705692+00:00",
     "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
     "provider": "cloudflare",
     "resolved_at": null,
@@ -126,6 +126,22 @@
     "source_url": "https://www.cloudflarestatus.com/incidents/f33c51cw0ojd",
     "status": "monitoring",
     "updated_at": "2026-11-19T00:36:54.191Z"
+  },
+  {
+    "category": "devops",
+    "collected_at": "2026-11-19T18:48:35.661545+00:00",
+    "created_at": "2026-11-19T16:30:04.141Z",
+    "first_seen_at": "2026-11-19T18:48:35.705692+00:00",
+    "id": "cloudflare:ljrvdciu7syf",
+    "impact": "minor",
+    "last_updated_at": "2026-11-19T18:48:35.705692+00:00",
+    "name": "Observability ingestion delay and query failures",
+    "provider": "cloudflare",
+    "resolved_at": null,
+    "source": "STATUS_API",
+    "source_url": "https://www.cloudflarestatus.com/incidents/ljrvdciu7syf",
+    "status": "identified",
+    "updated_at": "2026-11-19T16:30:18.537Z"
   },
   {
     "category": "devops",
