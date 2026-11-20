@@ -17,12 +17,12 @@
   },
   {
     "category": "devops",
-    "collected_at": "2026-11-20T17:29:45.312301+00:00",
+    "collected_at": "2026-11-20T23:37:34.108660+00:00",
     "created_at": "2026-11-10T01:53:58.905Z",
     "first_seen_at": "2026-11-11T11:42:47.514994+00:00",
     "id": "cloudflare:0ocqieaifg7h",
     "impact": "minor",
-    "last_updated_at": "2026-11-20T17:29:45.357316+00:00",
+    "last_updated_at": "2026-11-20T23:37:34.152108+00:00",
     "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
     "provider": "cloudflare",
     "resolved_at": null,
@@ -174,6 +174,22 @@
     "source_url": "https://www.cloudflarestatus.com/incidents/mc91s22odfvf",
     "status": "identified",
     "updated_at": "2026-11-13T14:56:27.695Z"
+  },
+  {
+    "category": "devops",
+    "collected_at": "2026-11-20T23:37:34.108660+00:00",
+    "created_at": "2026-11-20T20:35:16.792Z",
+    "first_seen_at": "2026-11-20T23:37:34.152108+00:00",
+    "id": "cloudflare:oz6to8yacrxe",
+    "impact": "minor",
+    "last_updated_at": "2026-11-20T23:37:34.152108+00:00",
+    "name": "Network Performance Issues in Washington, DC datacenter (IAD)",
+    "provider": "cloudflare",
+    "resolved_at": null,
+    "source": "STATUS_API",
+    "source_url": "https://www.cloudflarestatus.com/incidents/oz6to8yacrxe",
+    "status": "monitoring",
+    "updated_at": "2026-11-20T20:37:07.915Z"
   },
   {
     "category": "devops",
