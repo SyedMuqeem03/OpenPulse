@@ -8,7 +8,7 @@ Date: 2026-11-20
 - Updated security records: 2108
 - New DevOps records: 0
 - Updated DevOps records: 30
-- New status records: 0
+- New status records: 1
 - Updated status records: 1
 
 ## Critical Security Findings
@@ -98,14 +98,14 @@ Date: 2026-11-20
   Source: https://www.cloudflarestatus.com/incidents/3l6q71x7a37k
 
 - Provider: cloudflare
-  Status: monitoring
-  Name: Durable Objects increased error rates in North America
-  Source: https://www.cloudflarestatus.com/incidents/9zxr2bkqoct7
+  Status: identified
+  Name: Network Performance Issues in Miami
+  Source: https://www.cloudflarestatus.com/incidents/4lv21sf5fzhm
 
 ## Collection Summary
 
 - Successful collectors: 5
 - Failed collectors: 0
 - Duplicates removed: 0
-- New records stored: 0
+- New records stored: 1
 - Updated records stored: 2139
