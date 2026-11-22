@@ -1,6 +1,6 @@
 # OpenPulse Daily Intelligence Report
 
-Date: 2026-11-21
+Date: 2026-11-22
 
 ## Summary
 
@@ -8,7 +8,7 @@ Date: 2026-11-21
 - Updated security records: 2112
 - New DevOps records: 0
 - Updated DevOps records: 30
-- New status records: 0
+- New status records: 1
 - Updated status records: 1
 
 ## Critical Security Findings
@@ -107,5 +107,5 @@ Date: 2026-11-21
 - Successful collectors: 5
 - Failed collectors: 0
 - Duplicates removed: 0
-- New records stored: 0
+- New records stored: 1
 - Updated records stored: 2143
