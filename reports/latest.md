@@ -7,7 +7,7 @@ Date: 2026-11-22
 - New security records: 0
 - Updated security records: 2112
 - New DevOps records: 0
-- Updated DevOps records: 20
+- Updated DevOps records: 30
 - New status records: 0
 - Updated status records: 1
 
@@ -104,8 +104,8 @@ Date: 2026-11-22
 
 ## Collection Summary
 
-- Successful collectors: 4
-- Failed collectors: 1
+- Successful collectors: 5
+- Failed collectors: 0
 - Duplicates removed: 0
 - New records stored: 0
-- Updated records stored: 2133
+- Updated records stored: 2143
