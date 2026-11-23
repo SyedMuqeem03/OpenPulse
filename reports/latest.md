@@ -7,7 +7,7 @@ Date: 2026-11-23
 - New security records: 0
 - Updated security records: 2112
 - New DevOps records: 0
-- Updated DevOps records: 30
+- Updated DevOps records: 0
 - New status records: 0
 - Updated status records: 1
 
@@ -45,35 +45,7 @@ Date: 2026-11-23
 
 ## DevOps Release Highlights
 
-### grafana/grafana
-- Version: v12.4.14
-- Significance: MAJOR
-- Release: 12.4.14
-- URL: https://github.com/grafana/grafana/releases/tag/v12.4.14
-
-### grafana/grafana
-- Version: v12.4.15
-- Significance: MAJOR
-- Release: 12.4.15
-- URL: https://github.com/grafana/grafana/releases/tag/v12.4.15
-
-### grafana/grafana
-- Version: v13.0.12
-- Significance: MAJOR
-- Release: 13.0.12
-- URL: https://github.com/grafana/grafana/releases/tag/v13.0.12
-
-### grafana/grafana
-- Version: v13.0.13
-- Significance: MAJOR
-- Release: 13.0.13
-- URL: https://github.com/grafana/grafana/releases/tag/v13.0.13
-
-### grafana/grafana
-- Version: v13.1.10
-- Significance: MAJOR
-- Release: 13.1.10
-- URL: https://github.com/grafana/grafana/releases/tag/v13.1.10
+No notable DevOps release highlights identified.
 
 ## Status Incidents
 
@@ -104,8 +76,8 @@ Date: 2026-11-23
 
 ## Collection Summary
 
-- Successful collectors: 5
-- Failed collectors: 0
+- Successful collectors: 4
+- Failed collectors: 1
 - Duplicates removed: 0
 - New records stored: 0
-- Updated records stored: 2143
+- Updated records stored: 2113
