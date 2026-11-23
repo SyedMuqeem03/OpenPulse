@@ -1,6 +1,22 @@
 [
   {
     "category": "devops",
+    "collected_at": "2026-11-23T23:18:03.200320+00:00",
+    "created_at": "2026-11-23T13:52:11.144Z",
+    "first_seen_at": "2026-11-23T23:18:03.247709+00:00",
+    "id": "cloudflare:00dp7cliyqqt",
+    "impact": "minor",
+    "last_updated_at": "2026-11-23T23:18:03.247709+00:00",
+    "name": "Cloudflare Workers API \u2013 Delayed or Inconsistent Responses",
+    "provider": "cloudflare",
+    "resolved_at": null,
+    "source": "STATUS_API",
+    "source_url": "https://www.cloudflarestatus.com/incidents/00dp7cliyqqt",
+    "status": "investigating",
+    "updated_at": "2026-11-23T13:52:34.093Z"
+  },
+  {
+    "category": "devops",
     "collected_at": "2026-11-18T02:02:05.006001+00:00",
     "created_at": "2026-11-18T01:10:14.795Z",
     "first_seen_at": "2026-11-18T02:02:05.033922+00:00",
@@ -17,12 +33,12 @@
   },
   {
     "category": "devops",
-    "collected_at": "2026-11-23T11:42:25.381555+00:00",
+    "collected_at": "2026-11-23T23:18:03.200320+00:00",
     "created_at": "2026-11-10T01:53:58.905Z",
     "first_seen_at": "2026-11-11T11:42:47.514994+00:00",
     "id": "cloudflare:0ocqieaifg7h",
     "impact": "minor",
-    "last_updated_at": "2026-11-23T11:42:25.411763+00:00",
+    "last_updated_at": "2026-11-23T23:18:03.247709+00:00",
     "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
     "provider": "cloudflare",
     "resolved_at": null,
