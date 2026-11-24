@@ -1,19 +1,19 @@
 [
   {
     "category": "devops",
-    "collected_at": "2026-11-23T23:18:03.200320+00:00",
+    "collected_at": "2026-11-24T08:06:16.799164+00:00",
     "created_at": "2026-11-23T13:52:11.144Z",
     "first_seen_at": "2026-11-23T23:18:03.247709+00:00",
     "id": "cloudflare:00dp7cliyqqt",
     "impact": "minor",
-    "last_updated_at": "2026-11-23T23:18:03.247709+00:00",
+    "last_updated_at": "2026-11-24T08:06:16.842286+00:00",
     "name": "Cloudflare Workers API \u2013 Delayed or Inconsistent Responses",
     "provider": "cloudflare",
     "resolved_at": null,
     "source": "STATUS_API",
     "source_url": "https://www.cloudflarestatus.com/incidents/00dp7cliyqqt",
-    "status": "investigating",
-    "updated_at": "2026-11-23T13:52:34.093Z"
+    "status": "identified",
+    "updated_at": "2026-11-24T01:28:49.900Z"
   },
   {
     "category": "devops",
@@ -33,12 +33,12 @@
   },
   {
     "category": "devops",
-    "collected_at": "2026-11-23T23:18:03.200320+00:00",
+    "collected_at": "2026-11-24T08:06:16.799164+00:00",
     "created_at": "2026-11-10T01:53:58.905Z",
     "first_seen_at": "2026-11-11T11:42:47.514994+00:00",
     "id": "cloudflare:0ocqieaifg7h",
     "impact": "minor",
-    "last_updated_at": "2026-11-23T23:18:03.247709+00:00",
+    "last_updated_at": "2026-11-24T08:06:16.842286+00:00",
     "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
     "provider": "cloudflare",
     "resolved_at": null,
@@ -174,6 +174,22 @@
     "source_url": "https://www.cloudflarestatus.com/incidents/f33c51cw0ojd",
     "status": "monitoring",
     "updated_at": "2026-11-19T00:36:54.191Z"
+  },
+  {
+    "category": "devops",
+    "collected_at": "2026-11-24T08:06:16.799164+00:00",
+    "created_at": "2026-11-24T07:25:34.236Z",
+    "first_seen_at": "2026-11-24T08:06:16.842286+00:00",
+    "id": "cloudflare:idlaxmxz4unz",
+    "impact": "minor",
+    "last_updated_at": "2026-11-24T08:06:16.842286+00:00",
+    "name": "Increased Errors for Durable Objects in Seattle",
+    "provider": "cloudflare",
+    "resolved_at": null,
+    "source": "STATUS_API",
+    "source_url": "https://www.cloudflarestatus.com/incidents/idlaxmxz4unz",
+    "status": "investigating",
+    "updated_at": "2026-11-24T07:26:12.128Z"
   },
   {
     "category": "devops",

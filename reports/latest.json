@@ -1,16 +1,16 @@
 {
-  "commit_message": "feat: add 2 vulnerabilities, 2143 updated records to daily intelligence",
+  "commit_message": "feat: add 1 release updates, 2145 updated records to daily intelligence",
   "duplicates_removed": 0,
   "failed_collector_names": [],
   "failed_collectors": 0,
-  "new_devops": 0,
-  "new_security": 2,
+  "new_devops": 1,
+  "new_security": 0,
   "new_status": 1,
-  "new_total": 3,
+  "new_total": 2,
   "should_commit": true,
   "successful_collectors": 5,
-  "updated_devops": 30,
-  "updated_security": 2112,
-  "updated_status": 1,
-  "updated_total": 2143
+  "updated_devops": 29,
+  "updated_security": 2114,
+  "updated_status": 2,
+  "updated_total": 2145
 }
