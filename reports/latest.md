@@ -4,11 +4,11 @@ Date: 2026-11-24
 
 ## Summary
 
-- New security records: 0
+- New security records: 3
 - Updated security records: 2114
-- New DevOps records: 1
-- Updated DevOps records: 29
-- New status records: 1
+- New DevOps records: 5
+- Updated DevOps records: 25
+- New status records: 2
 - Updated status records: 2
 
 ## Critical Security Findings
@@ -58,6 +58,12 @@ Date: 2026-11-24
 - URL: https://github.com/grafana/grafana/releases/tag/v12.4.15
 
 ### grafana/grafana
+- Version: v12.4.16
+- Significance: MAJOR
+- Release: 12.4.16
+- URL: https://github.com/grafana/grafana/releases/tag/v12.4.16
+
+### grafana/grafana
 - Version: v13.0.12
 - Significance: MAJOR
 - Release: 13.0.12
@@ -69,16 +75,10 @@ Date: 2026-11-24
 - Release: 13.0.13
 - URL: https://github.com/grafana/grafana/releases/tag/v13.0.13
 
-### grafana/grafana
-- Version: v13.1.10
-- Significance: MAJOR
-- Release: 13.1.10
-- URL: https://github.com/grafana/grafana/releases/tag/v13.1.10
-
 ## Status Incidents
 
 - Provider: cloudflare
-  Status: identified
+  Status: monitoring
   Name: Cloudflare Workers API – Delayed or Inconsistent Responses
   Source: https://www.cloudflarestatus.com/incidents/00dp7cliyqqt
 
@@ -107,5 +107,5 @@ Date: 2026-11-24
 - Successful collectors: 5
 - Failed collectors: 0
 - Duplicates removed: 0
-- New records stored: 2
-- Updated records stored: 2145
+- New records stored: 10
+- Updated records stored: 2141

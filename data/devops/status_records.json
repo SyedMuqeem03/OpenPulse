@@ -1,19 +1,19 @@
 [
   {
     "category": "devops",
-    "collected_at": "2026-11-24T08:06:16.799164+00:00",
+    "collected_at": "2026-11-24T19:53:53.891679+00:00",
     "created_at": "2026-11-23T13:52:11.144Z",
     "first_seen_at": "2026-11-23T23:18:03.247709+00:00",
     "id": "cloudflare:00dp7cliyqqt",
     "impact": "minor",
-    "last_updated_at": "2026-11-24T08:06:16.842286+00:00",
+    "last_updated_at": "2026-11-24T19:53:53.935541+00:00",
     "name": "Cloudflare Workers API \u2013 Delayed or Inconsistent Responses",
     "provider": "cloudflare",
     "resolved_at": null,
     "source": "STATUS_API",
     "source_url": "https://www.cloudflarestatus.com/incidents/00dp7cliyqqt",
-    "status": "identified",
-    "updated_at": "2026-11-24T01:28:49.900Z"
+    "status": "monitoring",
+    "updated_at": "2026-11-24T19:25:51.327Z"
   },
   {
     "category": "devops",
@@ -33,12 +33,12 @@
   },
   {
     "category": "devops",
-    "collected_at": "2026-11-24T08:06:16.799164+00:00",
+    "collected_at": "2026-11-24T19:53:53.891679+00:00",
     "created_at": "2026-11-10T01:53:58.905Z",
     "first_seen_at": "2026-11-11T11:42:47.514994+00:00",
     "id": "cloudflare:0ocqieaifg7h",
     "impact": "minor",
-    "last_updated_at": "2026-11-24T08:06:16.842286+00:00",
+    "last_updated_at": "2026-11-24T19:53:53.935541+00:00",
     "name": "Changes to Cloudflare Workers are not producing Event Subscription events",
     "provider": "cloudflare",
     "resolved_at": null,
@@ -225,6 +225,22 @@
   },
   {
     "category": "devops",
+    "collected_at": "2026-11-24T19:53:53.891679+00:00",
+    "created_at": "2026-11-24T11:29:22.902Z",
+    "first_seen_at": "2026-11-24T19:53:53.935541+00:00",
+    "id": "cloudflare:no721jcnlrbh",
+    "impact": "major",
+    "last_updated_at": "2026-11-24T19:53:53.935541+00:00",
+    "name": "Magic Transit Degraded Performance",
+    "provider": "cloudflare",
+    "resolved_at": null,
+    "source": "STATUS_API",
+    "source_url": "https://www.cloudflarestatus.com/incidents/no721jcnlrbh",
+    "status": "identified",
+    "updated_at": "2026-11-24T14:58:40.337Z"
+  },
+  {
+    "category": "devops",
     "collected_at": "2026-11-21T05:23:12.089840+00:00",
     "created_at": "2026-11-20T20:35:16.792Z",
     "first_seen_at": "2026-11-20T23:37:34.152108+00:00",
@@ -270,6 +286,22 @@
     "source_url": "https://www.cloudflarestatus.com/incidents/wp49bp8bqo6c",
     "status": "identified",
     "updated_at": "2026-11-06T17:59:13.680Z"
+  },
+  {
+    "category": "devops",
+    "collected_at": "2026-11-24T19:53:53.891679+00:00",
+    "created_at": "2026-11-24T13:38:40.144Z",
+    "first_seen_at": "2026-11-24T19:53:53.935541+00:00",
+    "id": "cloudflare:x5ma22sji8wi",
+    "impact": "minor",
+    "last_updated_at": "2026-11-24T19:53:53.935541+00:00",
+    "name": "Issues with Email Routing in France",
+    "provider": "cloudflare",
+    "resolved_at": null,
+    "source": "STATUS_API",
+    "source_url": "https://www.cloudflarestatus.com/incidents/x5ma22sji8wi",
+    "status": "identified",
+    "updated_at": "2026-11-24T14:50:35.525Z"
   },
   {
     "category": "devops",
