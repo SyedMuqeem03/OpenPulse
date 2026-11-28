@@ -4,11 +4,11 @@ Date: 2026-11-28
 
 ## Summary
 
-- New security records: 3
-- Updated security records: 2127
+- New security records: 0
+- Updated security records: 2130
 - New DevOps records: 0
 - Updated DevOps records: 30
-- New status records: 0
+- New status records: 1
 - Updated status records: 1
 
 ## Critical Security Findings
@@ -98,14 +98,14 @@ Date: 2026-11-28
   Source: https://www.cloudflarestatus.com/incidents/1na2mbfshgdh
 
 - Provider: cloudflare
-  Status: monitoring
-  Name: Network Performance Issues in Ashburn, US
-  Source: https://www.cloudflarestatus.com/incidents/3l6q71x7a37k
+  Status: investigating
+  Name: Email Delivery Delays
+  Source: https://www.cloudflarestatus.com/incidents/27xnfvjy0n6j
 
 ## Collection Summary
 
 - Successful collectors: 5
 - Failed collectors: 0
 - Duplicates removed: 0
-- New records stored: 3
-- Updated records stored: 2158
+- New records stored: 1
+- Updated records stored: 2161
